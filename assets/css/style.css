@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card-bg {
+    width: 100%;
+}
+
+.profile {
+    width: 125px;
+    margin-top: -70px;
+    transition: .3s;
+}
+
+.profile:hover {
+    border-color: #6F32F3 !important;
+}
+
+.social-links i {
+    font-size: 20px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.social-links i:hover {
+    color: #6F32F3 !important;
+}
